@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class ProductComponent {
   Name =' computer';
-  price ='20000$';
+  price ='20000';
 
 }

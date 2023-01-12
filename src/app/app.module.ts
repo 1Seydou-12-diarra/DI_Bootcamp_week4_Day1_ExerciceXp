@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { GreetingComponent } from './greeting/greeting.component';
 import { ProductComponent } from './product/product.component';
+import { FormatagePipe } from './formatage.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ProductComponent } from './product/product.component';
     HeaderComponent,
     FooterComponent,
     GreetingComponent,
-    ProductComponent
+    ProductComponent,
+    FormatagePipe
     
   ],
   imports: [
